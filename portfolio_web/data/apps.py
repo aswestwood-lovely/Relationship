@@ -1,0 +1,81 @@
+# portfolio_web/data/apps.py
+
+APPS = [
+    {
+        "id": "debt_calculator",
+        "name": "Debt Calculator",
+        "category": "Finance",
+        "summary": "Payoff planning, bills tracking, budgeting forecasts, and exports.",
+        "tags": ["Payoff Plans", "Budgeting", "Excel Export"],
+        "access": "Public",  # Public | Member | Admin | Coming Soon
+        "web_url": "",       # add hosted link later (Streamlit Cloud / Cloud Run)
+        "download_url": "",  # add GitHub Release asset link later
+        "docs_url": "",      # add docs link later
+    },
+    {
+        "id": "iou_manager",
+        "name": "IOU / Personal Loan Manager",
+        "category": "Finance",
+        "summary": "Track money owed/owing with terms, schedules, receipts, and PDF exports.",
+        "tags": ["Loans", "PDF Export", "Multi-user"],
+        "access": "Member",
+        "web_url": "",
+        "download_url": "",
+        "docs_url": "",
+    },
+    {
+        "id": "finance_tracker",
+        "name": "Finance Tracker",
+        "category": "Finance",
+        "summary": "Track holdings and transactions (crypto/stocks/bonds basics) with charts.",
+        "tags": ["Holdings", "P/L", "Charts"],
+        "access": "Member",
+        "web_url": "",
+        "download_url": "",
+        "docs_url": "",
+    },
+    {
+        "id": "resume_builder",
+        "name": "Resume Builder",
+        "category": "Career",
+        "summary": "ATS-friendly resumes, job tailoring, templates, export to PDF/Word.",
+        "tags": ["ATS", "Templates", "Export"],
+        "access": "Public",
+        "web_url": "",
+        "download_url": "",
+        "docs_url": "",
+    },
+    {
+        "id": "relationship_quiz_suite",
+        "name": "Relationship Quiz Suite",
+        "category": "Relationships",
+        "summary": "Assessments with scores, insights, and recommendations.",
+        "tags": ["Assessments", "Recommendations", "Profiles"],
+        "access": "Public",
+        "web_url": "",
+        "download_url": "",
+        "docs_url": "",
+    },
+    {
+        "id": "web_scraper",
+        "name": "Web Scraper",
+        "category": "Utilities",
+        "summary": "Scrape pages responsibly, manage selectors, and export structured results.",
+        "tags": ["Selenium", "BeautifulSoup", "Exports"],
+        "access": "Member",
+        "web_url": "",
+        "download_url": "",
+        "docs_url": "",
+    },
+    {
+        "id": "data_analytics_tool",
+        "name": "Data Analytics Tool",
+        "category": "Utilities",
+        "summary": "Load data, profile it, build charts, and export insights.",
+        "tags": ["Charts", "Profiling", "Exports"],
+        "access": "Member",
+        "web_url": "",
+        "download_url": "",
+        "docs_url": "",
+    },
+]
