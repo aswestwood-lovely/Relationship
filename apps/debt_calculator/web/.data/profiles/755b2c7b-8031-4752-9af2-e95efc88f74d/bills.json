@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "name": "Bank of America",
+      "amount": 17893.34,
+      "due_day": 8,
+      "apr": 24.99,
+      "min_payment": 325.0,
+      "notes": ""
+    }
+  ]
+}
